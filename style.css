@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #d23890, #de425a, #cf612d, #ad7e0a, #809422, #519449, #228f69, #008780, #006d7f, #005278, #003666, #151949);
+    font-family: cursive;
+    color: white;
+}
+ h1{
+    color:blue;
+    background-color:aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+ }
+
+ #show_sketch{
+    float:right;
+ }
+
+ canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow:1px 1px 38px white;}
+ }
+
+ p{
+    padding-top:10px;
+    font-size:25px;
+ }
+
+ #score{
+    font-size: 35px;
+    margin-left: 20px;
+ }
+
+ #timer{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+ }
